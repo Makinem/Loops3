@@ -11,6 +11,5 @@ public class Java4 {
             }
         }
         System.out.println(count);
-        scanner.close();
     }
 }

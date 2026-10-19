@@ -8,6 +8,5 @@ public class Java5 {
             sum += x.charAt(i) - '0';
         }
         System.out.println(sum);
-        scanner.close();
     }
 }

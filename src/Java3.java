@@ -8,6 +8,5 @@ public class Java3 {
         for (int i = start; i * i <= b; i++) {
             System.out.print((i * i) + " ");
         }
-        scanner.close();
     }
 }

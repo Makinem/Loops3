@@ -13,6 +13,5 @@ public class Java2 {
                 }
             }
         }
-        scanner.close();
     }
 }
