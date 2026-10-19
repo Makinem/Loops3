@@ -2,10 +2,13 @@ import java.util.Scanner;
 public class Java12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.next();
+        int n = scanner.nextInt();
         int result = 0;
-        for (int i = 0; i < s.length(); i++) {
-            result = result * 2 + (s.charAt(i) - '0');
+        int base = 1;
+        while (n > 0) {
+            result += (n % 10) * base;
+            base *= 2;
+            n /= 10;
         }
         System.out.println(result);
     }
